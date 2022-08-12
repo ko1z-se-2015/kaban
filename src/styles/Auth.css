@@ -1,0 +1,24 @@
+
+
+
+.to-model-win{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.reg-model{
+    background: #8c642b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 850px;
+}
+.sign-model{
+    background: burlywood;
+}
