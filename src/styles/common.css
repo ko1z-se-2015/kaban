@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 16px;
+    padding: 14px 16px;
 }
 label{
     display: block;
@@ -21,4 +22,18 @@ input{
     width: 500px;
     font-size: 30px;
     padding: 5px;
+    border-radius: 5px;
+}
+
+/*-----------------------------------------------*/
+
+.btn{
+    color: #2a6bcb;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 0;
+    line-height: 22px;
+    width: 50%;
+    cursor: pointer;
 }

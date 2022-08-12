@@ -17,8 +17,31 @@
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    height: 850px;
+    height: 1000px;
 }
 .sign-model{
-    background: burlywood;
+    background: #8c642b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 500px;
+}
+.to-sign-in{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.text-acc{
+    font-size: 20px;
+    color: white;
+    margin-right: 5px;
+}
+.text-sign-in{
+    font-size: 20px;
+    color: white;
+}
+.text-sign-in:hover{
+    cursor: pointer;
 }

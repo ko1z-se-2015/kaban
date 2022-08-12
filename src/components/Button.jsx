@@ -1,10 +1,10 @@
 import React from 'react';
-
-const Button = () => {
+import '../styles/common.css'
+const Button = (props) => {
     return (
-        <div>
-            
-        </div>
+        <button className="btn">
+            {props.label}
+        </button>
     );
 };
 
