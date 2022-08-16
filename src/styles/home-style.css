@@ -1,0 +1,44 @@
+.home{
+    background: #f2f5f7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.home-content{
+    width: 100%;
+    max-width: 1240px;
+    height: inherit;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 20px 0;
+    justify-content: space-between;
+
+}
+.list-links{
+    position: fixed;
+    list-style-type: none;
+}
+.link{
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #0e121d;
+}
+.icon-link{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin-right: 120px;
+}
+
+
