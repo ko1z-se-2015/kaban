@@ -7,6 +7,7 @@ import friends from '../icons/friends.png'
 import logOut from '../icons/logout.png'
 import message from '../icons/messenger.png'
 import Post from "../components/Post";
+import {Link} from "react-router-dom";
 
 const Home = () => {
     return (
@@ -14,8 +15,8 @@ const Home = () => {
             <div className="home-content">
                 <div className="links">
                     <ul className="list-links">
-                        <li className="link"> <img className="icon-link" src={profile}/>Мой профиль</li>
-                        <li className="link"><img className="icon-link" src={news}/> Новости</li>
+                        <li ><Link className="link" to="/profile"><img className="icon-link" src={profile}/>Мой профиль</Link></li>
+                        <li ><Link className="link" to="/"><img className="icon-link" src={news}/>Новости</Link></li>
                         <li className="link"><img className="icon-link" src={message}/> Сообщения</li>
                         <li className="link"><img className="icon-link" src={friends}/> Мои друзья</li>
                         <li className="link"><img className="icon-link" src={options}/> Настройки</li>

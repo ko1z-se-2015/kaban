@@ -10,7 +10,7 @@ const Header = () => {
                     <div className="logo-text">ВКАБАН</div>
                 </div>
 
-                <img className="icon profile" src={require('../icons/profile.jpg')}/>
+                <img className="icon profile-icon" src={require('../icons/profile.jpg')}/>
             </div>
         </header>
     );
